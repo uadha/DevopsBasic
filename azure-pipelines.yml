@@ -29,3 +29,6 @@ steps:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'war'
     publishLocation: 'Container'
+    MaxArtifactSize: 0
+- task: AzureWebApp@1 
+
